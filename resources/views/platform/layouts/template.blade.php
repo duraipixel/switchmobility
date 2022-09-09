@@ -20,9 +20,9 @@
 					<!--begin::Brand-->
 					<div class="aside-logo flex-column-auto" id="kt_aside_logo">
 						<!--begin::Logo-->
-						<a href="../index.html">
-							<img alt="Logo" src="../assets/media/logos/logo-1-dark.svg" class="h-25px logo" />
-						</a>
+						<a href="javascript:void(0)">
+							<img alt="Logo" src="{{ asset('assets/logo/logo.png') }}" class="h-25px logo" />
+						</a> 
 						<!--end::Logo-->
 						<!--begin::Aside toggler-->
 						<div id="kt_aside_toggle" class="btn btn-icon w-auto px-0 btn-active-color-primary aside-toggle" data-kt-toggle="true" data-kt-toggle-state="active" data-kt-toggle-target="body" data-kt-toggle-name="aside-minimize">
@@ -65,8 +65,8 @@
 							<!--end::Aside mobile toggle-->
 							<!--begin::Mobile logo-->
 							<div class="d-flex align-items-center flex-grow-1 flex-lg-grow-0">
-								<a href="../index.html" class="d-lg-none">
-									<img alt="Logo" src="../assets/media/logos/logo-2.svg" class="h-30px" />
+								<a href="javascript:void(0)" class="d-lg-none">
+									<img alt="Logo" src="{{ asset('assets/logo/logo.png') }}" class="h-30px" />
 								</a>
 							</div>
 							<!--end::Mobile logo-->
@@ -91,7 +91,7 @@
 					<!--begin::Content-->
 					<div class="content d-flex flex-column flex-column-fluid" id="kt_content">
 						<!--begin::Toolbar-->
-                        @include('platform.layouts.parts._content_toolbar')
+						@yield('toolbar')
 						<!--end::Toolbar-->
 						<!--begin::Post-->
 						<div class="post d-flex flex-column-fluid" id="kt_post">
@@ -124,10 +124,10 @@
 		@include('platform.layouts.parts._modals')
 		<!--end::Modals-->
 		<!--begin::Javascript-->
-		<script>var hostUrl = "../assets/index.html";</script>
+		<script>var hostUrl = "{{ asset('assets/index.html') }}";</script>
 		<!--begin::Global Javascript Bundle(used by all pages)-->
-		<script src="../assets/plugins/global/plugins.bundle.js"></script>
-		<script src="../assets/js/scripts.bundle.js"></script>
+		<script src="{{ asset('assets/plugins/global/plugins.bundle.js') }}"></script>
+		<script src="{{ asset('assets/js/scripts.bundle.js') }}"></script>
 		<!--end::Global Javascript Bundle-->
         @yield('add_on_script')
 		

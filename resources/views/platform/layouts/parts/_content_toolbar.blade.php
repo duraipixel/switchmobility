@@ -11,10 +11,10 @@
         <!--begin::Actions-->
         <div class="d-flex align-items-center gap-2 gap-lg-3">
             <!--begin::Secondary button-->
-            <a href="../apps/customers/list.html" class="btn btn-sm btn-light">Add Customer</a>
+            <a href="javascript:void(0)" class="btn btn-sm btn-light">Add Customer</a>
             <!--end::Secondary button-->
             <!--begin::Primary button-->
-            <a href="../apps/ecommerce/sales/add-order.html" class="btn btn-sm btn-primary">New Shipment</a>
+            <a href="javascript:void(0)" class="btn btn-sm btn-primary">New Shipment</a>
             <!--end::Primary button-->
         </div>
         <!--end::Actions-->

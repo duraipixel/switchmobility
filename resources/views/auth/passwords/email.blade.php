@@ -3,16 +3,7 @@
     <div class="d-flex flex-column flex-root">
         <div class="d-flex flex-column flex-xl-row flex-column-fluid">
             <div class="d-flex flex-column flex-center flex-lg-row-fluid">
-                <div class="d-flex align-items-start flex-column p-5 p-lg-15">
-                    <a href="javascript:void(0)" class="mb-15">
-                        <img alt="Logo" src="{{ asset('assets/media/logos/logo-1.svg') }}" class="h-40px" />
-                    </a>
-                    <h1 class="text-dark fs-2x mb-3">Welcome, Admin Users!</h1>
-                    <div class="fw-bold fs-4 text-gray-400 mb-10">Plan your blog post by choosing a topic creating
-                        <br />an outline and checking facts
-                    </div>
-                    <img src="{{ asset('assets/media/illustrations/sketchy-1/8.png') }}" class="h-250px h-lg-350px" />
-                </div>
+                @include('auth._left_pane')
             </div>
 
             <div class="flex-row-fluid d-flex flex-center justfiy-content-xl-first p-10">
@@ -46,7 +37,7 @@
                         <!--begin::Actions-->
                         <div class="d-flex flex-wrap justify-content-center pb-lg-0">
                             <button type="button" id="kt_password_reset_submit"
-                                class="btn btn-lg btn-primary fw-bolder me-4">
+                                class="btn btn-lg btn-primary btn-shadow fw-bolder me-4">
                                 <span class="indicator-label">Submit</span>
                                 <span class="indicator-progress">Please wait...
                                     <span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>

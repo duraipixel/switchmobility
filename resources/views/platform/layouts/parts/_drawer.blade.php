@@ -1,4 +1,11 @@
 <!--begin::Activities drawer-->
+<div id="kt_common_add_form" class="bg-body" data-kt-drawer="true" data-kt-drawer-name="activities" data-kt-drawer-activate="true" data-kt-drawer-overlay="true" data-kt-drawer-width="{default:'300px', 'lg': '900px'}" data-kt-drawer-direction="end" data-kt-drawer-toggle="#kt_activities_toggle" data-kt-drawer-close="#kt_activities_close">
+    <div class="card shadow-none rounded-0 w-100" id="form-common-content">
+        
+    </div>
+</div>
+<!--end::Activities drawer-->
+<!--begin::Activities drawer-->
 <div id="kt_activities" class="bg-body" data-kt-drawer="true" data-kt-drawer-name="activities" data-kt-drawer-activate="true" data-kt-drawer-overlay="true" data-kt-drawer-width="{default:'300px', 'lg': '900px'}" data-kt-drawer-direction="end" data-kt-drawer-toggle="#kt_activities_toggle" data-kt-drawer-close="#kt_activities_close">
     <div class="card shadow-none rounded-0">
         <!--begin::Header-->
@@ -57,7 +64,7 @@
                                     <!--end::Info-->
                                     <!--begin::User-->
                                     <div class="symbol symbol-circle symbol-25px" data-bs-toggle="tooltip" data-bs-boundary="window" data-bs-placement="top" title="Nina Nilson">
-                                        <img src="../assets/media/avatars/300-14.jpg" alt="img" />
+                                        <img src="{{ asset('assets/media/avatars/300-14') }}.jpg" alt="img" />
                                     </div>
                                     <!--end::User-->
                                 </div>
@@ -80,12 +87,12 @@
                                     <div class="symbol-group symbol-hover flex-nowrap flex-grow-1 min-w-100px pe-2">
                                         <!--begin::User-->
                                         <div class="symbol symbol-circle symbol-25px">
-                                            <img src="../assets/media/avatars/300-2.jpg" alt="img" />
+                                            <img src="{{ asset('assets/media/avatars/300-2') }}.jpg" alt="img" />
                                         </div>
                                         <!--end::User-->
                                         <!--begin::User-->
                                         <div class="symbol symbol-circle symbol-25px">
-                                            <img src="../assets/media/avatars/300-14.jpg" alt="img" />
+                                            <img src="{{ asset('assets/media/avatars/300-14') }}.jpg" alt="img" />
                                         </div>
                                         <!--end::User-->
                                         <!--begin::User-->
@@ -119,7 +126,7 @@
                                     <div class="symbol-group symbol-hover flex-nowrap flex-grow-1 min-w-100px">
                                         <!--begin::User-->
                                         <div class="symbol symbol-circle symbol-25px">
-                                            <img src="../assets/media/avatars/300-20.jpg" alt="img" />
+                                            <img src="{{ asset('assets/media/avatars/300-20') }}.jpg" alt="img" />
                                         </div>
                                         <!--end::User-->
                                         <!--begin::User-->
@@ -178,7 +185,7 @@
                                     <!--end::Info-->
                                     <!--begin::User-->
                                     <div class="symbol symbol-circle symbol-25px" data-bs-toggle="tooltip" data-bs-boundary="window" data-bs-placement="top" title="Alan Nilson">
-                                        <img src="../assets/media/avatars/300-1.jpg" alt="img" />
+                                        <img src="{{ asset('assets/media/avatars/300-1') }}.jpg" alt="img" />
                                     </div>
                                     <!--end::User-->
                                 </div>
@@ -222,7 +229,7 @@
                                     <!--end::Info-->
                                     <!--begin::User-->
                                     <div class="symbol symbol-circle symbol-25px" data-bs-toggle="tooltip" data-bs-boundary="window" data-bs-placement="top" title="Jan Hummer">
-                                        <img src="../assets/media/avatars/300-23.jpg" alt="img" />
+                                        <img src="{{ asset('assets/media/avatars/300-23') }}.jpg" alt="img" />
                                     </div>
                                     <!--end::User-->
                                 </div>
@@ -235,7 +242,7 @@
                                     <!--begin::Item-->
                                     <div class="d-flex flex-aligns-center pe-10 pe-lg-20">
                                         <!--begin::Icon-->
-                                        <img alt="" class="w-30px me-3" src="../assets/media/svg/files/pdf.svg" />
+                                        <img alt="" class="w-30px me-3" src="{{ asset('assets/media/svg/files/pdf') }}.svg" />
                                         <!--end::Icon-->
                                         <!--begin::Info-->
                                         <div class="ms-1 fw-bold">
@@ -252,7 +259,7 @@
                                     <!--begin::Item-->
                                     <div class="d-flex flex-aligns-center pe-10 pe-lg-20">
                                         <!--begin::Icon-->
-                                        <img alt="/metronic8/demo1/../demo1/apps/projects/project.html" class="w-30px me-3" src="../assets/media/svg/files/doc.svg" />
+                                        <img alt="/metronic8/demo1/../demo1/apps/projects/project.html" class="w-30px me-3" src="{{ asset('assets/media/svg/files/doc') }}.svg" />
                                         <!--end::Icon-->
                                         <!--begin::Info-->
                                         <div class="ms-1 fw-bold">
@@ -269,7 +276,7 @@
                                     <!--begin::Item-->
                                     <div class="d-flex flex-aligns-center">
                                         <!--begin::Icon-->
-                                        <img alt="/metronic8/demo1/../demo1/apps/projects/project.html" class="w-30px me-3" src="../assets/media/svg/files/css.svg" />
+                                        <img alt="/metronic8/demo1/../demo1/apps/projects/project.html" class="w-30px me-3" src="{{ asset('assets/media/svg/files/css') }}.svg" />
                                         <!--end::Icon-->
                                         <!--begin::Info-->
                                         <div class="ms-1 fw-bold">
@@ -325,7 +332,7 @@
                                     <!--end::Info-->
                                     <!--begin::User-->
                                     <div class="symbol symbol-circle symbol-25px" data-bs-toggle="tooltip" data-bs-boundary="window" data-bs-placement="top" title="Nina Nilson">
-                                        <img src="../assets/media/avatars/300-14.jpg" alt="img" />
+                                        <img src="{{ asset('assets/media/avatars/300-14') }}.jpg" alt="img" />
                                     </div>
                                     <!--end::User-->
                                 </div>
@@ -369,7 +376,7 @@
                                     <!--end::Info-->
                                     <!--begin::User-->
                                     <div class="symbol symbol-circle symbol-25px" data-bs-toggle="tooltip" data-bs-boundary="window" data-bs-placement="top" title="Marcus Dotson">
-                                        <img src="../assets/media/avatars/300-2.jpg" alt="img" />
+                                        <img src="{{ asset('assets/media/avatars/300-2') }}.jpg" alt="img" />
                                     </div>
                                     <!--end::User-->
                                 </div>
@@ -383,7 +390,7 @@
                                     <div class="overlay me-10">
                                         <!--begin::Image-->
                                         <div class="overlay-wrapper">
-                                            <img alt="img" class="rounded w-150px" src="../assets/media/stock/600x400/img-29.jpg" />
+                                            <img alt="img" class="rounded w-150px" src="{{ asset('assets/media/stock/600x400/img') }}-29.jpg" />
                                         </div>
                                         <!--end::Image-->
                                         <!--begin::Link-->
@@ -397,7 +404,7 @@
                                     <div class="overlay me-10">
                                         <!--begin::Image-->
                                         <div class="overlay-wrapper">
-                                            <img alt="img" class="rounded w-150px" src="../assets/media/stock/600x400/img-31.jpg" />
+                                            <img alt="img" class="rounded w-150px" src="{{ asset('assets/media/stock/600x400/img') }}-31.jpg" />
                                         </div>
                                         <!--end::Image-->
                                         <!--begin::Link-->
@@ -411,7 +418,7 @@
                                     <div class="overlay">
                                         <!--begin::Image-->
                                         <div class="overlay-wrapper">
-                                            <img alt="img" class="rounded w-150px" src="../assets/media/stock/600x400/img-40.jpg" />
+                                            <img alt="img" class="rounded w-150px" src="{{ asset('assets/media/stock/600x400/img') }}-40.jpg" />
                                         </div>
                                         <!--end::Image-->
                                         <!--begin::Link-->
@@ -508,7 +515,7 @@
                                     <!--end::Info-->
                                     <!--begin::User-->
                                     <div class="symbol symbol-circle symbol-25px" data-bs-toggle="tooltip" data-bs-boundary="window" data-bs-placement="top" title="Robert Rich">
-                                        <img src="../assets/media/avatars/300-4.jpg" alt="img" />
+                                        <img src="{{ asset('assets/media/avatars/300-4') }}.jpg" alt="img" />
                                     </div>
                                     <!--end::User-->
                                 </div>
@@ -726,7 +733,7 @@
                         <div class="d-flex align-items-center mb-2">
                             <!--begin::Avatar-->
                             <div class="symbol symbol-35px symbol-circle">
-                                <img alt="Pic" src="../assets/media/avatars/300-25.jpg" />
+                                <img alt="Pic" src="{{ asset('assets/media/avatars/300-25') }}.jpg" />
                             </div>
                             <!--end::Avatar-->
                             <!--begin::Details-->
@@ -758,7 +765,7 @@
                             <!--end::Details-->
                             <!--begin::Avatar-->
                             <div class="symbol symbol-35px symbol-circle">
-                                <img alt="Pic" src="../assets/media/avatars/300-1.jpg" />
+                                <img alt="Pic" src="{{ asset('assets/media/avatars/300-1') }}.jpg" />
                             </div>
                             <!--end::Avatar-->
                         </div>
@@ -778,7 +785,7 @@
                         <div class="d-flex align-items-center mb-2">
                             <!--begin::Avatar-->
                             <div class="symbol symbol-35px symbol-circle">
-                                <img alt="Pic" src="../assets/media/avatars/300-25.jpg" />
+                                <img alt="Pic" src="{{ asset('assets/media/avatars/300-25') }}.jpg" />
                             </div>
                             <!--end::Avatar-->
                             <!--begin::Details-->
@@ -810,7 +817,7 @@
                             <!--end::Details-->
                             <!--begin::Avatar-->
                             <div class="symbol symbol-35px symbol-circle">
-                                <img alt="Pic" src="../assets/media/avatars/300-1.jpg" />
+                                <img alt="Pic" src="{{ asset('assets/media/avatars/300-1') }}.jpg" />
                             </div>
                             <!--end::Avatar-->
                         </div>
@@ -830,7 +837,7 @@
                         <div class="d-flex align-items-center mb-2">
                             <!--begin::Avatar-->
                             <div class="symbol symbol-35px symbol-circle">
-                                <img alt="Pic" src="../assets/media/avatars/300-25.jpg" />
+                                <img alt="Pic" src="{{ asset('assets/media/avatars/300-25') }}.jpg" />
                             </div>
                             <!--end::Avatar-->
                             <!--begin::Details-->
@@ -863,7 +870,7 @@
                             <!--end::Details-->
                             <!--begin::Avatar-->
                             <div class="symbol symbol-35px symbol-circle">
-                                <img alt="Pic" src="../assets/media/avatars/300-1.jpg" />
+                                <img alt="Pic" src="{{ asset('assets/media/avatars/300-1') }}.jpg" />
                             </div>
                             <!--end::Avatar-->
                         </div>
@@ -883,7 +890,7 @@
                         <div class="d-flex align-items-center mb-2">
                             <!--begin::Avatar-->
                             <div class="symbol symbol-35px symbol-circle">
-                                <img alt="Pic" src="../assets/media/avatars/300-25.jpg" />
+                                <img alt="Pic" src="{{ asset('assets/media/avatars/300-25') }}.jpg" />
                             </div>
                             <!--end::Avatar-->
                             <!--begin::Details-->
@@ -915,7 +922,7 @@
                             <!--end::Details-->
                             <!--begin::Avatar-->
                             <div class="symbol symbol-35px symbol-circle">
-                                <img alt="Pic" src="../assets/media/avatars/300-1.jpg" />
+                                <img alt="Pic" src="{{ asset('assets/media/avatars/300-1') }}.jpg" />
                             </div>
                             <!--end::Avatar-->
                         </div>
@@ -935,7 +942,7 @@
                         <div class="d-flex align-items-center mb-2">
                             <!--begin::Avatar-->
                             <div class="symbol symbol-35px symbol-circle">
-                                <img alt="Pic" src="../assets/media/avatars/300-25.jpg" />
+                                <img alt="Pic" src="{{ asset('assets/media/avatars/300-25') }}.jpg" />
                             </div>
                             <!--end::Avatar-->
                             <!--begin::Details-->
@@ -1085,7 +1092,7 @@
                                 <!--begin::Demo-->
                                 <div class="overlay overflow-hidden position-relative border border-4 border-success rounded">
                                     <div class="overlay-wrapper">
-                                        <img src="../assets/media/demos/demo1.png" alt="demo" class="w-100" />
+                                        <img src="{{ asset('assets/media/demos/demo1.png') }}" alt="demo" class="w-100" />
                                     </div>
                                     <div class="overlay-layer bg-dark bg-opacity-10">
                                         <a href="https://preview.keenthemes.com/metronic8/demo1" class="btn btn-sm btn-success shadow">Demo 1</a>
@@ -1099,7 +1106,7 @@
                                 <!--begin::Demo-->
                                 <div class="overlay overflow-hidden position-relative border border-4 border-gray-200 rounded">
                                     <div class="overlay-wrapper">
-                                        <img src="../assets/media/demos/demo2.png" alt="demo" class="w-100" />
+                                        <img src="{{ asset('assets/media/demos/demo2.png') }}" alt="demo" class="w-100" />
                                     </div>
                                     <div class="overlay-layer bg-dark bg-opacity-10">
                                         <a href="https://preview.keenthemes.com/metronic8/demo2" class="btn btn-sm btn-success shadow">Demo 2</a>
@@ -1113,7 +1120,7 @@
                                 <!--begin::Demo-->
                                 <div class="overlay overflow-hidden position-relative border border-4 border-gray-200 rounded">
                                     <div class="overlay-wrapper">
-                                        <img src="../assets/media/demos/demo3.png" alt="demo" class="w-100" />
+                                        <img src="{{ asset('assets/media/demos/demo3.png') }}" alt="demo" class="w-100" />
                                     </div>
                                     <div class="overlay-layer bg-dark bg-opacity-10">
                                         <a href="https://preview.keenthemes.com/metronic8/demo3" class="btn btn-sm btn-success shadow">Demo 3</a>
@@ -1127,7 +1134,7 @@
                                 <!--begin::Demo-->
                                 <div class="overlay overflow-hidden position-relative border border-4 border-gray-200 rounded">
                                     <div class="overlay-wrapper">
-                                        <img src="../assets/media/demos/demo4.png" alt="demo" class="w-100" />
+                                        <img src="{{ asset('assets/media/demos/demo4.png') }}" alt="demo" class="w-100" />
                                     </div>
                                     <div class="overlay-layer bg-dark bg-opacity-10">
                                         <a href="https://preview.keenthemes.com/metronic8/demo4" class="btn btn-sm btn-success shadow">Demo 4</a>
@@ -1141,7 +1148,7 @@
                                 <!--begin::Demo-->
                                 <div class="overlay overflow-hidden position-relative border border-4 border-gray-200 rounded">
                                     <div class="overlay-wrapper">
-                                        <img src="../assets/media/demos/demo5.png" alt="demo" class="w-100" />
+                                        <img src="{{ asset('assets/media/demos/demo5.png') }}" alt="demo" class="w-100" />
                                     </div>
                                     <div class="overlay-layer bg-dark bg-opacity-10">
                                         <a href="https://preview.keenthemes.com/metronic8/demo5" class="btn btn-sm btn-success shadow">Demo 5</a>
@@ -1155,7 +1162,7 @@
                                 <!--begin::Demo-->
                                 <div class="overlay overflow-hidden position-relative border border-4 border-gray-200 rounded">
                                     <div class="overlay-wrapper">
-                                        <img src="../assets/media/demos/demo6.png" alt="demo" class="w-100" />
+                                        <img src="{{ asset('assets/media/demos/demo6.png') }}" alt="demo" class="w-100" />
                                     </div>
                                     <div class="overlay-layer bg-dark bg-opacity-10">
                                         <a href="https://preview.keenthemes.com/metronic8/demo6" class="btn btn-sm btn-success shadow">Demo 6</a>
@@ -1169,7 +1176,7 @@
                                 <!--begin::Demo-->
                                 <div class="overlay overflow-hidden position-relative border border-4 border-gray-200 rounded">
                                     <div class="overlay-wrapper">
-                                        <img src="../assets/media/demos/demo7.png" alt="demo" class="w-100" />
+                                        <img src="{{ asset('assets/media/demos/demo7.png') }}" alt="demo" class="w-100" />
                                     </div>
                                     <div class="overlay-layer bg-dark bg-opacity-10">
                                         <a href="https://preview.keenthemes.com/metronic8/demo7" class="btn btn-sm btn-success shadow">Demo 7</a>
@@ -1183,7 +1190,7 @@
                                 <!--begin::Demo-->
                                 <div class="overlay overflow-hidden position-relative border border-4 border-gray-200 rounded">
                                     <div class="overlay-wrapper">
-                                        <img src="../assets/media/demos/demo8.png" alt="demo" class="w-100" />
+                                        <img src="{{ asset('assets/media/demos/demo8.png') }}" alt="demo" class="w-100" />
                                     </div>
                                     <div class="overlay-layer bg-dark bg-opacity-10">
                                         <a href="https://preview.keenthemes.com/metronic8/demo8" class="btn btn-sm btn-success shadow">Demo 8</a>
@@ -1197,7 +1204,7 @@
                                 <!--begin::Demo-->
                                 <div class="overlay overflow-hidden position-relative border border-4 border-gray-200 rounded">
                                     <div class="overlay-wrapper">
-                                        <img src="../assets/media/demos/demo9.png" alt="demo" class="w-100" />
+                                        <img src="{{ asset('assets/media/demos/demo9.png') }}" alt="demo" class="w-100" />
                                     </div>
                                     <div class="overlay-layer bg-dark bg-opacity-10">
                                         <a href="https://preview.keenthemes.com/metronic8/demo9" class="btn btn-sm btn-success shadow">Demo 9</a>
@@ -1211,7 +1218,7 @@
                                 <!--begin::Demo-->
                                 <div class="overlay overflow-hidden position-relative border border-4 border-gray-200 rounded">
                                     <div class="overlay-wrapper">
-                                        <img src="../assets/media/demos/demo10.png" alt="demo" class="w-100" />
+                                        <img src="{{ asset('assets/media/demos/demo10.png') }}" alt="demo" class="w-100" />
                                     </div>
                                     <div class="overlay-layer bg-dark bg-opacity-10">
                                         <a href="https://preview.keenthemes.com/metronic8/demo10" class="btn btn-sm btn-success shadow">Demo 10</a>
@@ -1225,7 +1232,7 @@
                                 <!--begin::Demo-->
                                 <div class="overlay overflow-hidden position-relative border border-4 border-gray-200 rounded">
                                     <div class="overlay-wrapper">
-                                        <img src="../assets/media/demos/demo11.png" alt="demo" class="w-100" />
+                                        <img src="{{ asset('assets/media/demos/demo11.png') }}" alt="demo" class="w-100" />
                                     </div>
                                     <div class="overlay-layer bg-dark bg-opacity-10">
                                         <a href="https://preview.keenthemes.com/metronic8/demo11" class="btn btn-sm btn-success shadow">Demo 11</a>
@@ -1239,7 +1246,7 @@
                                 <!--begin::Demo-->
                                 <div class="overlay overflow-hidden position-relative border border-4 border-gray-200 rounded">
                                     <div class="overlay-wrapper">
-                                        <img src="../assets/media/demos/demo12.png" alt="demo" class="w-100" />
+                                        <img src="{{ asset('assets/media/demos/demo12.png') }}" alt="demo" class="w-100" />
                                     </div>
                                     <div class="overlay-layer bg-dark bg-opacity-10">
                                         <a href="https://preview.keenthemes.com/metronic8/demo12" class="btn btn-sm btn-success shadow">Demo 12</a>
@@ -1253,7 +1260,7 @@
                                 <!--begin::Demo-->
                                 <div class="overlay overflow-hidden position-relative border border-4 border-gray-200 rounded">
                                     <div class="overlay-wrapper">
-                                        <img src="../assets/media/demos/demo13.png" alt="demo" class="w-100" />
+                                        <img src="{{ asset('assets/media/demos/demo13.png') }}" alt="demo" class="w-100" />
                                     </div>
                                     <div class="overlay-layer bg-dark bg-opacity-10">
                                         <a href="https://preview.keenthemes.com/metronic8/demo13" class="btn btn-sm btn-success shadow">Demo 13</a>
@@ -1267,7 +1274,7 @@
                                 <!--begin::Demo-->
                                 <div class="overlay overflow-hidden position-relative border border-4 border-gray-200 rounded">
                                     <div class="overlay-wrapper">
-                                        <img src="../assets/media/demos/demo14.png" alt="demo" class="w-100" />
+                                        <img src="{{ asset('assets/media/demos/demo14.png') }}" alt="demo" class="w-100" />
                                     </div>
                                     <div class="overlay-layer bg-dark bg-opacity-10">
                                         <a href="https://preview.keenthemes.com/metronic8/demo14" class="btn btn-sm btn-success shadow">Demo 14</a>
@@ -1281,7 +1288,7 @@
                                 <!--begin::Demo-->
                                 <div class="overlay overflow-hidden position-relative border border-4 border-gray-200 rounded">
                                     <div class="overlay-wrapper">
-                                        <img src="../assets/media/demos/demo15.png" alt="demo" class="w-100" />
+                                        <img src="{{ asset('assets/media/demos/demo15.png') }}" alt="demo" class="w-100" />
                                     </div>
                                     <div class="overlay-layer bg-dark bg-opacity-10">
                                         <a href="https://preview.keenthemes.com/metronic8/demo15" class="btn btn-sm btn-success shadow">Demo 15</a>
@@ -1295,7 +1302,7 @@
                                 <!--begin::Demo-->
                                 <div class="overlay overflow-hidden position-relative border border-4 border-gray-200 rounded">
                                     <div class="overlay-wrapper">
-                                        <img src="../assets/media/demos/demo16.png" alt="demo" class="w-100" />
+                                        <img src="{{ asset('assets/media/demos/demo16.png') }}" alt="demo" class="w-100" />
                                     </div>
                                     <div class="overlay-layer bg-dark bg-opacity-10">
                                         <a href="https://preview.keenthemes.com/metronic8/demo16" class="btn btn-sm btn-success shadow">Demo 16</a>
@@ -1309,7 +1316,7 @@
                                 <!--begin::Demo-->
                                 <div class="overlay overflow-hidden position-relative border border-4 border-gray-200 rounded">
                                     <div class="overlay-wrapper">
-                                        <img src="../assets/media/demos/demo17.png" alt="demo" class="w-100" />
+                                        <img src="{{ asset('assets/media/demos/demo17.png') }}" alt="demo" class="w-100" />
                                     </div>
                                     <div class="overlay-layer bg-dark bg-opacity-10">
                                         <a href="https://preview.keenthemes.com/metronic8/demo17" class="btn btn-sm btn-success shadow">Demo 17</a>
@@ -1323,7 +1330,7 @@
                                 <!--begin::Demo-->
                                 <div class="overlay overflow-hidden position-relative border border-4 border-gray-200 rounded">
                                     <div class="overlay-wrapper">
-                                        <img src="../assets/media/demos/demo18.png" alt="demo" class="w-100" />
+                                        <img src="{{ asset('assets/media/demos/demo18.png') }}" alt="demo" class="w-100" />
                                     </div>
                                     <div class="overlay-layer bg-dark bg-opacity-10">
                                         <a href="https://preview.keenthemes.com/metronic8/demo18" class="btn btn-sm btn-success shadow">Demo 18</a>
@@ -1337,7 +1344,7 @@
                                 <!--begin::Demo-->
                                 <div class="overlay overflow-hidden position-relative border border-4 border-gray-200 rounded">
                                     <div class="overlay-wrapper">
-                                        <img src="../assets/media/demos/demo19.png" alt="demo" class="w-100" />
+                                        <img src="{{ asset('assets/media/demos/demo19.png') }}" alt="demo" class="w-100" />
                                     </div>
                                     <div class="overlay-layer bg-dark bg-opacity-10">
                                         <a href="https://preview.keenthemes.com/metronic8/demo19" class="btn btn-sm btn-success shadow">Demo 19</a>
@@ -1351,7 +1358,7 @@
                                 <!--begin::Demo-->
                                 <div class="overlay overflow-hidden position-relative border border-4 border-gray-200 rounded">
                                     <div class="overlay-wrapper">
-                                        <img src="../assets/media/demos/demo20.png" alt="demo" class="w-100" />
+                                        <img src="{{ asset('assets/media/demos/demo20.png') }}" alt="demo" class="w-100" />
                                     </div>
                                     <div class="overlay-layer bg-dark bg-opacity-10">
                                         <a href="https://preview.keenthemes.com/metronic8/demo20" class="btn btn-sm btn-success shadow">Demo 20</a>
@@ -1365,7 +1372,7 @@
                                 <!--begin::Demo-->
                                 <div class="overlay overflow-hidden position-relative border border-4 border-gray-200 rounded">
                                     <div class="overlay-wrapper">
-                                        <img src="../assets/media/demos/demo21.png" alt="demo" class="w-100" />
+                                        <img src="{{ asset('assets/media/demos/demo21.png') }}" alt="demo" class="w-100" />
                                     </div>
                                     <div class="overlay-layer bg-dark bg-opacity-10">
                                         <a href="https://preview.keenthemes.com/metronic8/demo21" class="btn btn-sm btn-success shadow">Demo 21</a>
@@ -1379,7 +1386,7 @@
                                 <!--begin::Demo-->
                                 <div class="overlay overflow-hidden position-relative border border-4 border-gray-200 rounded">
                                     <div class="overlay-wrapper">
-                                        <img src="../assets/media/demos/demo22.png" alt="demo" class="w-100" />
+                                        <img src="{{ asset('assets/media/demos/demo22.png') }}" alt="demo" class="w-100" />
                                     </div>
                                     <div class="overlay-layer bg-dark bg-opacity-10">
                                         <a href="https://preview.keenthemes.com/metronic8/demo22" class="btn btn-sm btn-success shadow">Demo 22</a>
@@ -1393,7 +1400,7 @@
                                 <!--begin::Demo-->
                                 <div class="overlay overflow-hidden position-relative border border-4 border-gray-200 rounded">
                                     <div class="overlay-wrapper">
-                                        <img src="../assets/media/demos/demo23.png" alt="demo" class="w-100 opacity-25" />
+                                        <img src="{{ asset('assets/media/demos/demo23.png') }}" alt="demo" class="w-100 opacity-25" />
                                     </div>
                                     <div class="overlay-layer bg-dark bg-opacity-10">
                                         <div class="badge badge-white px-6 py-4 fw-bold fs-base shadow">Coming soon</div>
@@ -1407,7 +1414,7 @@
                                 <!--begin::Demo-->
                                 <div class="overlay overflow-hidden position-relative border border-4 border-gray-200 rounded">
                                     <div class="overlay-wrapper">
-                                        <img src="../assets/media/demos/demo24.png" alt="demo" class="w-100 opacity-25" />
+                                        <img src="{{ asset('assets/media/demos/demo24.png') }}" alt="demo" class="w-100 opacity-25" />
                                     </div>
                                     <div class="overlay-layer bg-dark bg-opacity-10">
                                         <div class="badge badge-white px-6 py-4 fw-bold fs-base shadow">Coming soon</div>

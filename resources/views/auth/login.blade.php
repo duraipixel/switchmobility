@@ -3,16 +3,7 @@
 <div class="d-flex flex-column flex-root">
     <div class="d-flex flex-column flex-xl-row flex-column-fluid">
         <div class="d-flex flex-column flex-center flex-lg-row-fluid">
-            <div class="d-flex align-items-start flex-column p-5 p-lg-15">
-                <a href="javascript:void(0)" class="mb-15">
-                    <img alt="Logo" src="{{ asset('assets/media/logos/logo-1.svg') }}" class="h-40px" />
-                </a>
-                <h1 class="text-dark fs-2x mb-3">Welcome, Admin Users!</h1>
-                <div class="fw-bold fs-4 text-gray-400 mb-10">Plan your blog post by choosing a topic creating
-                    <br />an outline and checking facts
-                </div>
-                <img src="{{ asset('assets/media/illustrations/sketchy-1/8.png') }}" class="h-250px h-lg-350px" />
-            </div>
+           @include('auth._left_pane')
         </div>
 
         <div class="flex-row-fluid d-flex flex-center justfiy-content-xl-first p-10">
@@ -21,7 +12,7 @@
                     id="kt_sign_in_form"  action="{{ route('login') }}" method="POST">
                     @csrf
                     <div class="text-center mb-10">
-                        <h1 class="text-dark mb-3">Sign In to Metronic</h1>
+                        <h1 class="text-dark mb-3">Sign In to <img alt="Logo" src="{{ asset('assets/logo/logo.png') }}" class="h-20px" /></h1>
                         <div class="text-gray-400 fw-bold fs-4">
                             <div class="fv-plugins-message-container invalid-feedback">
                                 @error('email')
@@ -56,7 +47,7 @@
                        
                     </div>
                     <div class="text-center">
-                        <button type="submit" id="kt_sign_in_submit" class="btn btn-lg btn-primary w-100 mb-5">
+                        <button type="submit" id="kt_sign_in_submit" class="btn btn-lg btn-shadow btn-primary w-100 mb-5">
                             <span class="indicator-label">Continue</span>
                             <span class="indicator-progress">Please wait...
                                 <span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>

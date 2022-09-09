@@ -2818,3 +2818,11 @@
     <!--end::Modal dialog-->
 </div>
 <!--end::Modal - Invite Friend-->
+
+<div class="modal fade" id="common_add_modal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered mw-750px">
+        <div class="modal-content" id="load_common_add_modal_content">
+            
+        </div>
+    </div>
+</div>

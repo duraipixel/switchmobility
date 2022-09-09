@@ -33839,6 +33839,7 @@ a:hover {
 }
 .show:not(.menu-dropdown) > .menu-sub-accordion, .menu-sub-accordion.show {
   display: flex;
+  /* background: #0F3460; */
 }
 
 .menu-inline {
@@ -37550,6 +37551,7 @@ a:hover {
   color: #FFFFFF;
   border-color: #009EF7;
   background-color: #009EF7;
+  /* background: repeating-linear-gradient(45deg, #4989e6, #505bfe 50%); */
 }
 .btn.btn-primary i,
 .btn.btn-primary .svg-icon {
@@ -45444,6 +45446,7 @@ code:not([class*=language-]) {
 .svg-icon.svg-icon-2 svg {
   height: 1.5rem !important;
   width: 1.5rem !important;
+  /* color: aqua; */
 }
 .svg-icon.svg-icon-3 svg {
   height: 1.35rem !important;
@@ -47741,9 +47744,12 @@ body {
 }
 .aside.aside-dark {
   background-color: #1e1e2d;
+  /* background: linear-gradient(172deg, #21339f, #2C94E0); */
+  /* background: #04293A; */
 }
 .aside.aside-dark .aside-logo {
   background-color: #1a1a27;
+  /* background: #fff; */
 }
 .aside.aside-dark .aside-toggle {
   color: #494b74;
@@ -48023,12 +48029,14 @@ body {
 }
 .aside-dark .menu .menu-item .menu-section {
   color: #4c4e6f !important;
+  /* color: #c6bebe!important; */
 }
 .aside-dark .menu .menu-item .menu-link {
   color: #9899ac;
 }
 .aside-dark .menu .menu-item .menu-link .menu-title {
   color: #9899ac;
+  /* color: #eee; */
 }
 .aside-dark .menu .menu-item .menu-link .menu-icon,
 .aside-dark .menu .menu-item .menu-link .menu-icon .svg-icon,

@@ -1,4 +1,29 @@
 @extends('platform.layouts.template')
+@section('toolbar')
+<div class="toolbar" id="kt_toolbar">
+    <!--begin::Container-->
+    <div id="kt_toolbar_container" class="container-fluid d-flex flex-stack">
+        <!--begin::Page title-->
+        <div data-kt-swapper="true" data-kt-swapper-mode="prepend" data-kt-swapper-parent="{default: '#kt_content_container', 'lg': '#kt_toolbar_container'}" class="page-title d-flex align-items-center flex-wrap me-3 mb-5 mb-lg-0">
+            <!--begin::Title-->
+            <h1 class="d-flex text-dark fw-bolder fs-3 align-items-center my-1">Logistics</h1>
+            <!--end::Title-->
+        </div>
+        <!--end::Page title-->
+        <!--begin::Actions-->
+        <div class="d-flex align-items-center gap-2 gap-lg-3">
+            <!--begin::Secondary button-->
+            <a href="javascript:void(0)" class="btn btn-sm btn-light">Add Customer</a>
+            <!--end::Secondary button-->
+            <!--begin::Primary button-->
+            <a href="javascript:void(0)" class="btn btn-sm btn-primary">New Shipment</a>
+            <!--end::Primary button-->
+        </div>
+        <!--end::Actions-->
+    </div>
+    <!--end::Container-->
+</div>
+@endsection
 @section('content')
 <div id="kt_content_container" class="container-xxl">
     <!--begin::Row-->
@@ -2209,31 +2234,31 @@
 @endsection
 @section('add_on_script')
     <!--begin::Page Vendors Javascript(used by this page)-->
-		<script src="../assets/plugins/custom/datatables/datatables.bundle.js"></script>
-		<script src="../assets/plugins/custom/vis-timeline/vis-timeline.bundle.js"></script>
-		<script src="../../../../cdn.amcharts.com/lib/5/index.js"></script>
-		<script src="../../../../cdn.amcharts.com/lib/5/map.js"></script>
-		<script src="../../../../cdn.amcharts.com/lib/5/geodata/worldLow.js"></script>
-		<script src="../../../../cdn.amcharts.com/lib/5/geodata/continentsLow.js"></script>
-		<script src="../../../../cdn.amcharts.com/lib/5/geodata/usaLow.js"></script>
-		<script src="../../../../cdn.amcharts.com/lib/5/geodata/worldTimeZonesLow.js"></script>
-		<script src="../../../../cdn.amcharts.com/lib/5/geodata/worldTimeZoneAreasLow.js"></script>
-		<script src="../../../../cdn.amcharts.com/lib/5/themes/Animated.js"></script>
-		<script src="../../../../cdn.amcharts.com/lib/5/xy.js"></script>
-		<script src="../../../../cdn.amcharts.com/lib/5/percent.js"></script>
-		<script src="../../../../cdn.amcharts.com/lib/5/radar.js"></script>
+		<script src="{{ asset('assets/plugins/custom/datatables/datatables.bundle.js') }}"></script>
+		<script src="{{ asset('assets/plugins/custom/vis-timeline/vis-timeline.bundle.js') }}"></script>
+		<script src="http://cdn.amcharts.com/lib/5/index.js"></script>
+		<script src="http://cdn.amcharts.com/lib/5/map.js"></script>
+		<script src="http://cdn.amcharts.com/lib/5/geodata/worldLow.js"></script>
+		<script src="http://cdn.amcharts.com/lib/5/geodata/continentsLow.js"></script>
+		<script src="http://cdn.amcharts.com/lib/5/geodata/usaLow.js"></script>
+		<script src="http://cdn.amcharts.com/lib/5/geodata/worldTimeZonesLow.js"></script>
+		<script src="http://cdn.amcharts.com/lib/5/geodata/worldTimeZoneAreasLow.js"></script>
+		<script src="http://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+		<script src="http://cdn.amcharts.com/lib/5/xy.js"></script>
+		<script src="http://cdn.amcharts.com/lib/5/percent.js"></script>
+		<script src="http://cdn.amcharts.com/lib/5/radar.js"></script>
 		<!--end::Page Vendors Javascript-->
 		<!--begin::Page Custom Javascript(used by this page)-->
-		<script src="../assets/js/widgets.bundle.js"></script>
-		<script src="../assets/js/custom/widgets.js"></script>
-		<script src="../assets/js/custom/apps/chat/chat.js"></script>
-		<script src="../assets/js/custom/intro.js"></script>
-		<script src="../assets/js/custom/utilities/modals/upgrade-plan.js"></script>
-		<script src="../assets/js/custom/utilities/modals/offer-a-deal/type.js"></script>
-		<script src="../assets/js/custom/utilities/modals/offer-a-deal/details.js"></script>
-		<script src="../assets/js/custom/utilities/modals/offer-a-deal/finance.js"></script>
-		<script src="../assets/js/custom/utilities/modals/offer-a-deal/complete.js"></script>
-		<script src="../assets/js/custom/utilities/modals/offer-a-deal/main.js"></script>
-		<script src="../assets/js/custom/utilities/modals/users-search.js"></script>
+		<script src="{{ asset('assets/js/widgets.bundle.js') }}"></script>
+		<script src="{{ asset('assets/js/custom/widgets.js') }}"></script>
+		<script src="{{ asset('assets/js/custom/apps/chat/chat.js') }}"></script>
+		<script src="{{ asset('assets/js/custom/intro.js') }}"></script>
+		<script src="{{ asset('assets/js/custom/utilities/modals/upgrade-plan.js') }}"></script>
+		<script src="{{ asset('assets/js/custom/utilities/modals/offer-a-deal/type.js') }}"></script>
+		<script src="{{ asset('assets/js/custom/utilities/modals/offer-a-deal/details.js') }}"></script>
+		<script src="{{ asset('assets/js/custom/utilities/modals/offer-a-deal/finance.js') }}"></script>
+		<script src="{{ asset('assets/js/custom/utilities/modals/offer-a-deal/complete.js') }}"></script>
+		<script src="{{ asset('assets/js/custom/utilities/modals/offer-a-deal/main.js') }}"></script>
+		<script src="{{ asset('assets/js/custom/utilities/modals/users-search.js') }}"></script>
 		<!--end::Page Custom Javascript-->
 @endsection

@@ -97,7 +97,6 @@ var KTUsersAddRole = function () {
          submitButton.addEventListener('click', function (e) {
              // Prevent default button action
              e.preventDefault();
- 
              // Validate form before submit
              if (validator) {
                  validator.validate().then(function (status) {
